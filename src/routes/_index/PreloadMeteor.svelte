@@ -69,9 +69,6 @@
 				<ButtonGeneral dark on:click={preloadMeteor}>
 					{$t('wish.loadMeteor')}
 				</ButtonGeneral>
-				<ButtonGeneral dark on:click={skipMeteor}>
-					{$t('wish.skipMeteor')}
-				</ButtonGeneral>
 			</div>
 		{/if}
 	</div>
