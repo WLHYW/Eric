@@ -74,7 +74,7 @@ const verifyKey = async () => {
 	const { validity, status } = await adKey.initialLoad();
 	if (status === 'offline') return retry();
 	proUser.set(!!validity);
-	showAd.set(!validity);
+	showAd.set(!!validity);
 };
 
 export { adKey, verifyKey };
