@@ -1,0 +1,31 @@
+{
+	"patch": 1.0,
+	"data": [
+		{
+			"phase": 1,
+			"banners": {
+				"standardVersion": 1,
+				"events": {
+					"featured": [
+						{
+							"bannerName": "ballad-in-goblets-1",
+							"character": "zhongli",
+							"textOffset": { "l": 60, "b": -5 }
+						}
+					],
+					"rateup": ["fischl", "barbara"]
+				},
+				"weapons": {
+					"bannerName": "epitome-invocation-1",
+					"fatepointsystem": false,
+					"featured": [{ "name": "amos-bow" }, { "name": "aquila-favonia" }],
+					"rateup": ["the-flute", "the-stringless", "favonius-lance", "the-bell", "the-widsith"],
+					"textOffset": {
+						"featured": { "l": 41, "t": 76 },
+						"rateup": { "l": 75, "b": 18 }
+					}
+				}
+			}
+		}
+	]
+}
