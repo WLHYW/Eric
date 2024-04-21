@@ -43,9 +43,7 @@
 		{#if !browserDetect().isSupported && isPWA}
 			<div class="updates adExpired">
 				<strong>
-					We highly recommend you to install
-					<span style="display: inline; color:#5ab3ff"> Google Chrome </span>
-					First, Maybe some features won't work properly for now!
+					为了更好的体验，请勿在移动端上访问，这会导致没有任何声音和过程动画，体验极差，推荐在电脑端使用Microsoft Edge或Google Chrome
 				</strong>
 			</div>
 		{:else}
